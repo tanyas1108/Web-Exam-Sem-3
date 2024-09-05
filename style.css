@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    align-items: center;
+}
+.button{
+    color: white;
+    padding: 20px;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: lightgray;
+    color: black;
+}
+.bg-img{
+    background-image: url("./photo-1583144568008-76743354fa5a.avif");
+    height: 600px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: bottom;
+    margin-bottom: 100px;
+}
+.img-text1{
+    font-size: 20px;
+    margin-bottom: 480px;
+}
+.img-text{
+    font-size: 20px;
+    display: flex; 
+    align-items: bottom;
+    justify-content: center;
+    margin-bottom: 480px;
+}
+.para{
+    text-align: center;
+    /* margin-top: 30px; */
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.row{
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.column {
+  float: left;
+  width: 300px;
+  padding: 40px;
+  text-align: center;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.card-sec{
+    background-color: black;
+    height: 570px;
+    text-align: center;
+}
+.card-sec2{
+    display: flex;
+    justify-content: center;
+}
+.head{
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: Lucida ;
+}
+.card {
+    background-color: white;
+    width: 200px;
+    height: 330px;
+    margin: 10px;
+    text-align: left;
+    font-family: arial;
+}
+  
+.date{
+    color: grey;
+    font-size: 15px;
+    margin-left: 10px;
+}
+  
+.c-button {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    width: 65px;
+    font-size: 11px;
+}
+.c-button:hover {
+    color: black;
+    background-color: grey;
+}
+.end{
+    margin-top: 60px;
+    text-align: center;
+}
+.e-text{
+    margin-left: 300px;
+    margin-bottom: 10px;
+    margin-right: 400px;
+}
+.e-details{
+    display: flex;
+}
+#inf{
+    height: 30px;
+    padding-left: 10px;
+    margin-right: 6px;
+}
+#inf-m{
+    margin-top: 10px;
+    height: 30px;
+    padding-left: 10px;
+    width: 352px;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-left: 75vw;
+    height: 30px;
+    width: 60px;
+    margin-bottom: 150px;
+}
+.send:hover{
+    color: black;
+    background-color: grey;
+}
